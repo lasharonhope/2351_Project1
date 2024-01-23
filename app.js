@@ -1,1 +1,1 @@
-console.log('Hey Dev Ed');
+console.log('What is your favorite color?');
