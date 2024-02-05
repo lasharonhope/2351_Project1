@@ -1,14 +1,10 @@
-var person = "Lily Aldrin" //Global Scope
-let life = 100 + 30 -20; //Global Scope
+const name = "Favorite Shows to Binge Watch";
 
-life = life - 60; //Global Scope
+const tvshow = "Modern Family, Leverage, Two Broke Girls, Big Bang Theory, Superstore"
+function toUpper(text) {
+   const upperCased = text.toUpperCase();
+    console.log(upperCased)
+}
 
-const car = {type:"landrover", model:"rangerover", color:"white"};
-
-
-{let x = 2;} //Block Scope
-
-console.log(person)
-console.log(life);
-console.log(car)
-console.log(x);
+toUpper(name);
+toUpper(tvshow);
