@@ -23,3 +23,25 @@ console.log(`It's almost Valentine's Day`);
 const name2 = "Chiefs";
 const name3 = "49ers";
 console.log(`The ${name2} beat the ${name3} in the SuperBowl`);
+const names = ['Max','Caroline','Cam','Mitch','Hailey','Alex','Parker','Sheldon','Amy'];
+
+for (list of names) {
+  console.log(list);
+}
+let loading = 0;
+
+while(loading < 100){
+  console.log('Website is still loading');
+
+  loading++;
+}
+
+const text = document.querySelector(".title");
+const changeColor = document.querySelector('.changeColor');
+
+text.style.color = "blue";
+
+
+changeColor.addEventListener('click', function(){
+  text.classList.toggle('change');
+})
