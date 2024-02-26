@@ -13,21 +13,13 @@ const age = 45;
 if (age < 34) {
   console.log("Welcome to my page!");  
 } else if(age > 40){
-  console.log("Have you found what you were searching for?");
+  console.log("What is your favorite show?");
 }
 else {
-  console.log("What do you see?");
+  console.log("Can you guess my favorite show?");
 }
 
-console.log(`It's almost Valentine's Day`);
-const name2 = "Chiefs";
-const name3 = "49ers";
-console.log(`The ${name2} beat the ${name3} in the SuperBowl`);
-const names = ['Max','Caroline','Cam','Mitch','Hailey','Alex','Parker','Sheldon','Amy'];
 
-for (list of names) {
-  console.log(list);
-}
 let loading = 0;
 
 while(loading < 100){
@@ -45,3 +37,19 @@ text.style.color = "blue";
 changeColor.addEventListener('click', function(){
   text.classList.toggle('change');
 })
+const character = ['Max','Caroline','Cam','Mitch','Hailey','Alex','Parker','Sheldon','Amy'];
+
+console.log(character[4]);
+
+const user ={
+animal: "White Tiger",
+car: "Range Rover",
+text: "I have enjoyed working on this project!",
+
+sayAnimal: function() {
+  console.log(this.animal);
+}
+};
+
+console.log(user.text);
+user.sayAnimal();
